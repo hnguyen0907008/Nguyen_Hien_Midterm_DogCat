@@ -1,0 +1,45 @@
+@charset "utf-8";
+
+body{
+    background-color: bisque;
+}
+
+main {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    flex-direction: column;
+    width: 900px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+h1 {
+    text-align: center;
+}
+
+#petImg {
+    height: 400px;
+    margin: 0 auto;
+}
+
+.pet {
+    padding: 40px;
+    display: flex;
+    flex-direction: row;
+}
+
+.text {
+    padding-left: 30px;
+}
+
+.text h2, h1 {
+    color: burlywood;
+}
+
+#reasons {
+    list-style-type: none;
+}
+
+#reasons li {
+    margin-bottom: 10px;
+}
